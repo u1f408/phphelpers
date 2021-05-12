@@ -1,0 +1,23 @@
+{
+    "name": "u1f408/phphelpers",
+    "description": "Miscellaneous helper classes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iris System",
+            "email": "iris@iris.ac.nz"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.86",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "IrisHelpers\\": "lib/"
+        }
+    }
+}
